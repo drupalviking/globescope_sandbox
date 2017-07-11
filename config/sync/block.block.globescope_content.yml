@@ -1,0 +1,22 @@
+uuid: 3451aad7-a678-4c8d-be88-d19fd7e8cd09
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - globescope
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: globescope_content
+theme: globescope
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

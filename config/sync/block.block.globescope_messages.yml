@@ -1,0 +1,22 @@
+uuid: ed33886f-4c18-474f-b85d-b52507dc921a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - globescope
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: globescope_messages
+theme: globescope
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

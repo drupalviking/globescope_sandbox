@@ -1,0 +1,22 @@
+uuid: ac1311f5-3ec3-4aa9-89f5-714dfd3ef545
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - globescope
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: globescope_help
+theme: globescope
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
